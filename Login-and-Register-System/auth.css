@@ -1,0 +1,129 @@
+body {
+	margin: 0;
+	background-color: #fbfbfb;
+	text-align: center;
+}
+
+.rlform {
+	/* variables */
+	--color-primary: #ff9800;
+	--color-grey: rgba(255, 152, 0, 0.06);
+	--color-dark: rgba(255, 152, 0, .5);
+	--color-semidark: rgba(255, 152, 0, 0.5);
+
+	text-align: center;
+	margin: 10px 0 0 0;
+	font-family: 'Segoe UI';
+	font-size: 14px;
+}
+
+.rlform .rlform-wrapper {
+	-webkit-transition: all 1s;
+	-o-transition: all 1s;
+	transition: all 1s;
+	-webkit-perspective: 1000px;
+	        perspective: 1000px;
+	position: relative;
+	height: 100%;
+	width: 360px;
+	margin: 0 auto;
+}
+
+.rlform a {
+	color: var(--color-primary);
+	text-decoration: none;
+	border-bottom: 1px dashed var(--color-semidark);
+	margin-top: -3px;
+	padding-bottom: 2px;
+}
+
+.rlform * {
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+.rlform .rlform-box-inner {
+	background-color: #fff;
+	-webkit-box-shadow: 0 7px 25px rgba(0, 0, 0, .08);
+	        box-shadow: 0 7px 25px rgba(0, 0, 0, .08);
+	padding: 30px 25px 25px 25px;
+	text-align: left;
+	border-radius: 3px;
+}
+
+.rlform .rlform-box p {
+	color: var(--color-semidark);
+	font-weight: 700;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.rlform .rlform-box .rlform-group {
+	margin-bottom: 25px;
+}
+
+.rlform .rlform-box label {
+	margin-bottom: 5px;
+	display: inline-block;
+	width: 100%;
+	color: var(--color-semidark);
+	font-weight: 700;
+}
+
+.rlform .rlform-box label a {
+	float: right;
+}
+
+.rlform .rlform-box .rlform-input {
+	background-color: var(--color-grey);
+	color: var(--color-dark);
+	border: none;
+	border-radius: 3px;
+	padding: 15px 20px;
+	width: 100%;
+	outline: 0;
+}
+
+.rlform .rlform-box .rlform-btn {
+	display: inline-block;
+	width: 100%;
+	border: none;
+	color: #fff;
+	padding: 15px;
+	border-radius: 3px;
+	background-color: var(--color-primary);
+	-webkit-box-shadow: 0 2px 7px var(--color-semidark);
+	        box-shadow: 0 2px 7px var(--color-semidark);
+	font-weight: 700;
+	outline: 0;
+	cursor: pointer;
+	-webkit-transition: all .5s;
+	-o-transition: all .5s;
+	transition: all .5s;
+}
+
+.rlform .rlform-box .rlform-btn:active {
+	-webkit-box-shadow: none;
+	        box-shadow: none;
+}
+
+.rlform .rlform-box .rlform-btn:hover {
+	opacity: .9;
+}
+
+.rlform .text-foot {
+	text-align: center;
+	padding: 10px;
+	font-weight: 700;
+	margin-top: 20px;
+	color: var(--color-semidark);
+}
+
+@media screen and (max-width: 320px) {
+	.rlform .rlform-wrapper {
+		width: 100%;
+	}
+	.rlform .rlform-box {
+		padding: 0 10px;
+	}
+}
