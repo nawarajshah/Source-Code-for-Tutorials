@@ -70,7 +70,8 @@ INSERT INTO `customers` (`id`, `name`, `country`, `city`, `postalCode`) VALUES
 (25, 'Catherine Dewey', 'Belgium', 'Bruxelles', 1180),
 (26, 'Jean Fresnière', 'Canada', 'Montréal', 8585),
 (27, 'Isabel de Castro', 'Portugal', 'Lisboa', 1756),
-(28, 'Shruti Rana Magar', 'Nepal', 'Pokhara', 33700);
+(28, 'Shruti Rana Magar', 'Nepal', 'Pokhara', 33700),
+(29, 'Rohit Kumar', 'India', 'Chhattisgarh', 494228);
 
 -- --------------------------------------------------------
 
@@ -115,7 +116,8 @@ INSERT INTO `orders` (`id`, `productName`, `price`, `customerId`) VALUES
 (25, 'Cheese spread', 3, 20),
 (26, 'Camera', 563, 20),
 (27, 'Air Purifier', 89, 20),
-(28, 'Black tea', 2, 6);
+(28, 'Black tea', 2, 6),
+(29, 'Ismart Phone', 90, 29);
 
 --
 -- Indexes for dumped tables
